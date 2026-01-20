@@ -57,6 +57,18 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Staatliches
+      fonts:
+        - asset: assets/fonts/Staatliches/Staatliches-Regular.ttf
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen/Oxygen-Regular.ttf
+        - asset: assets/fonts/Oxygen/Oxygen-Bold.ttf
+        - asset: assets/fonts/Oxygen/Oxygen-Light.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
